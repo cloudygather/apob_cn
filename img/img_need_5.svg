@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_need_5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_need_5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-15" transform="translate(8.000000, 13.000000)" stroke="#4A4A4A" stroke-width="3">
+            <polyline id="Path-16" points="58 0 58 9 66 9"></polyline>
+            <path d="M45.4038694,15.5 L58.65,15.5" id="Path-17"></path>
+            <path d="M45.4038694,21.5 L58.65,21.5" id="Path-17"></path>
+            <path d="M45.860158,27.5 L52.7412648,27.5" id="Path-17"></path>
+            <polyline id="Path-21" points="61.1707335 36 66 36 66 8.36363636 58.025 0 37 0 37 36 54.9760117 36"></polyline>
+            <g id="Group-27" transform="translate(0.000000, 58.000000)">
+                <path d="M7.40386944,21.5 L20.65,21.5" id="Path-17"></path>
+                <path d="M7.41960461,28.5 L14.3007114,28.5" id="Path-17"></path>
+                <rect id="Rectangle" x="7" y="7" width="14" height="8"></rect>
+                <polyline id="Path-18" points="17.334238 36 0 36 0 0 29 0 29 36 24.0883866 36"></polyline>
+            </g>
+            <path d="M45.4038694,79.5 L58.65,79.5" id="Path-17"></path>
+            <path d="M45.4196046,86.5 L52.3007114,86.5" id="Path-17"></path>
+            <rect id="Rectangle" x="45" y="65" width="14" height="8"></rect>
+            <polyline id="Path-18" points="54.334238 94 37 94 37 58 66 58 66 94 61.0883866 94"></polyline>
+            <g id="Group-22" transform="translate(74.000000, 58.000000)">
+                <path d="M8.40386944,21.5 L21.65,21.5" id="Path-17"></path>
+                <path d="M7.86015801,28.5 L14.7412648,28.5" id="Path-17"></path>
+                <rect id="Rectangle" x="8" y="7" width="14" height="8"></rect>
+                <polyline id="Path-18" points="17.334238 36 0 36 0 0 29 0 29 36 24.0883866 36"></polyline>
+            </g>
+            <path d="M51,37 L51,58" id="Path-19"></path>
+            <polyline id="Path-20" points="14 58 14 47 89 47 89 58"></polyline>
+        </g>
+    </g>
+</svg>

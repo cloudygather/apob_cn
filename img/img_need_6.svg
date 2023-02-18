@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_need_6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_need_6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" cx="41" cy="33" r="5"></circle>
+        <circle id="Oval-Copy" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" cx="54" cy="35" r="3"></circle>
+        <path d="M82,101 L38,101 L36,105 L27,105 L27,101 L27,94 L94.5,94 C96.4329966,94 98,95.5670034 98,97.5 C98,99.4329966 96.4329966,101 94.5,101 L93,101 L93,105 L84,105 L82,101 Z" id="Combined-Shape" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <g id="Group" transform="translate(51.000000, 58.000000)">
+            <path d="M2.46341846,5.02357211 C2.46341846,4.19514498 3.13499133,3.52357211 3.96341846,3.52357211 L48,3.52357211 C48.8095855,3.52357211 49.4730971,4.1660094 49.499219,4.9751734 C50.1906625,26.3936229 42.1234481,37.5 25.5,37.5 C10.1730951,37.5 2.46341846,26.4110422 2.46341846,5.02357211 Z M25.5,34.5 C39.8472728,34.5 46.7961457,25.4201906 46.5344389,6.52357211 L5.47633149,6.52357211 C5.80608436,25.4184013 12.4521173,34.5 25.5,34.5 Z" id="Path-33" fill="#4A4A4A" fill-rule="nonzero"></path>
+            <rect id="Rectangle" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="52" height="5"></rect>
+        </g>
+        <rect id="Rectangle" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="72" y="46" width="20" height="6"></rect>
+        <rect id="Rectangle" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="81" y="52" width="7" height="6"></rect>
+        <path d="M21.1517412,26.5 L27.7923599,26.5" id="Path-34" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M22.1949066,38.5 L27.7923599,38.5" id="Path-34" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <rect id="Rectangle" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="20" y="19" width="80" height="27" rx="1"></rect>
+        <path d="M21.1517412,32.5 L27.7923599,32.5" id="Path-34" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M74.2952052,27.0274414 L82.905392,27.0274414" id="Path-34" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M88,27.0274414 L91.4152802,27.0274414" id="Path-34" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M32.5,15.5 L32.5,19" id="Path-35" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M24.9936332,44.5416631 C32.0486671,58.9519326 32.717456,75.6185993 27,94.5416631" id="Path-36" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M43.8582488,46 L43.8582488,77" id="Path-37" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M43.8582488,94 L43.8582488,86.5" id="Path-37" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M60.5058712,70.3659098 C60.7015884,72.0926226 60.955252,73.4633158 61.2668618,74.4779895" id="Path-38" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M63.3317458,79.7831338 C65.9373111,84.8031377 69.3792933,87.5477153 73.6576921,88.0168667" id="Path-39" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+</svg>

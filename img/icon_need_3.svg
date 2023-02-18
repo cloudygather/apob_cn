@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_need_3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_need_3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-18" transform="translate(15.000000, 20.000000)" stroke="#4A4A4A" stroke-width="3">
+            <rect id="Rectangle" x="21" y="0.542372881" width="48" height="17"></rect>
+            <path d="M-1.91846539e-13,29 L22.4082757,29 C21.8915644,34.6065 17.0725904,39 11.2041378,39 C5.33568521,39 0.516711251,34.6065 2.60739347e-13,29 Z M22.5,29 L44.9082757,29 C44.3915644,34.6065 39.5725904,39 33.7041378,39 C27.8356852,39 23.0167113,34.6065 22.5,29 Z M45,29 L67.4082757,29 C66.8915644,34.6065 62.0725904,39 56.2041378,39 C50.3356852,39 45.5167113,34.6065 45,29 Z M67.5,29 L89.9082757,29 C89.3915644,34.6065 84.5725904,39 78.7041378,39 C72.8356852,39 68.0167113,34.6065 67.5,29 Z" id="Combined-Shape"></path>
+            <polyline id="Path-15" points="67.4541378 81 81 81 81 39"></polyline>
+            <polyline id="Path-13" points="21 79.4821668 21 49.4821668 38 49.4821668 38 79.4821668"></polyline>
+            <rect id="Rectangle" x="49" y="49" width="22" height="13" rx="1"></rect>
+            <polyline id="Path-14" points="9 40 9 81 56.2041378 81"></polyline>
+            <polyline id="Path" points="21 12 14.375 12 -2.27373675e-13 29 89.9082757 29 75.625 12 69 12"></polyline>
+        </g>
+    </g>
+</svg>

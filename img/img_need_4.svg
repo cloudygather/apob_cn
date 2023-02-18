@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_need_4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_need_4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-30" transform="translate(13.000000, 18.000000)">
+            <g id="Group-28" transform="translate(36.000000, 0.000000)">
+                <path d="M15,24 L15,8 C15,3.581722 18.581722,8.11624501e-16 23,0 L31,0 C35.418278,-8.11624501e-16 39,3.581722 39,8 L39,24" id="Path-27" stroke="#4A4A4A" stroke-width="3"></path>
+                <g id="Group-29" transform="translate(0.887638, 17.000000)">
+                    <polyline id="Path-29" stroke="#4A4A4A" stroke-width="3" points="0 18.6112612 0.627513825 0 51.5972108 0 55.1123623 59 45.4493998 59"></polyline>
+                    <path d="M39.6123623,59 L9.11236231,59" id="Path-30"></path>
+                    <path d="M9.11236231,59 L35.4254872,59" id="Path-31" stroke="#4A4A4A" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Group-28" transform="translate(0.000000, 23.000000)" stroke="#4A4A4A" stroke-width="3">
+                <path d="M13.2983053,19 L13.2983053,8 C13.2983053,3.581722 16.8800273,8.11624501e-16 21.2983053,0 L24.2983053,0 C28.7165833,-8.11624501e-16 32.2983053,3.581722 32.2983053,8 L32.2983053,19" id="Path-27"></path>
+                <path d="M39.1244211,60.4327126 L46,60.4327126 L43.2121212,13.4327126 L2.78787879,13.4327126 L0,60.4327126 C17.2337458,60.4327126 27.0563124,60.4327126 29.4676996,60.4327126" id="Path-28"></path>
+            </g>
+        </g>
+    </g>
+</svg>

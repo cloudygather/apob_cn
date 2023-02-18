@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="zh_TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimun-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="a piece of Bake 共享空間，一塊烘焙 Funsiamo 全新創立的共享烘焙空間品牌">
+    <meta property="og:site_name" content="a piece of Bake">
+    <meta property="og:title" content="a piece of Bake 共享空間，一塊烘焙">
+    <meta property="og:description" content="a piece of Bake 共享空間，一塊烘焙 Funsiamo 全新創立的共享烘焙空間品牌">
+    <title>Share-Space 共享空間，一塊烘焙</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "6mkhdupmfd");
+  </script>
+
+    <script>
+      $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+      // Store hash
+      var hash = this.hash;
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+      scrollTop: $(hash).offset().top
+      }, 800, function(){
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+      } // End if
+      });
+      });
+      </script>
+
+      <script>
+
+        $(document).ready(function() {
+            
+            /* Every time the window is scrolled ... */
+            $(window).scroll( function(){
+            
+                /* Check the location of each desired element */
+                $('.text').each( function(i){
+                    
+                    var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                    var bottom_of_window = $(window).scrollTop() + $(window).height();
+                    
+                    /* If the object is completely visible in the window, fade it it */
+                    if( bottom_of_window > bottom_of_object ){
+                        
+                        $(this).animate({'opacity':'1'},500);
+                            
+                    }
+                    
+                }); 
+            
+            });
+            
+        });
+        
+      </script>
+
+      <script>
+
+        $(document).ready(function() {
+            
+            /* Every time the window is scrolled ... */
+            $(window).scroll( function(){
+            
+                /* Check the location of each desired element */
+                $('.row').each( function(i){
+                    
+                    var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                    var bottom_of_window = $(window).scrollTop() + $(window).height();
+                    
+                    /* If the object is completely visible in the window, fade it it */
+                    if( bottom_of_window > bottom_of_object ){
+                        
+                        $(this).animate({'opacity':'1'},500);
+                            
+                    }
+                    
+                }); 
+            
+            });
+            
+        });
+        
+        </script>
+      <script>
+
+        $(document).ready(function() {
+            
+            /* Every time the window is scrolled ... */
+            $(window).scroll( function(){
+            
+                /* Check the location of each desired element */
+                $('.text_1').each( function(i){
+                    
+                    var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                    var bottom_of_window = $(window).scrollTop() + $(window).height();
+                    
+                    /* If the object is completely visible in the window, fade it it */
+                    if( bottom_of_window > bottom_of_object ){
+                        
+                        $(this).animate({'opacity':'1'},500);
+                            
+                    }
+                    
+                }); 
+            
+            });
+            
+        });
+        
+        </script>
+
+
+<style type="text/css">
+        
+body{
+width:100%;
+margin:0 auto;
+align-content: center;
+padding:0;
+text-size-adjust:100%;
+font-family:'Noto Sans TC', sans-serif ;
+letter-spacing: 1px;
+scroll-behavior: smooth;
+}
+
+.pc_banner{
+display:flex;
+}
+
+.navbar{
+width:100%;
+position: fixed;
+z-index: 4;
+}
+
+.pc_box{
+height:10vh;
+width: 100%;
+position: fixed;
+transition: all 1s linear;
+background-color: #ffffff;
+z-index: 3;
+box-shadow: 3px 3px 3px #e3e3e3;
+}
+
+.mobile_box{
+display: none;
+}
+
+.hide{
+opacity: 0;
+}
+
+.show{
+opacity: 1;
+}
+
+.logo{
+float:left;
+padding: 10px 20px;
+}
+
+.logo_320{
+z-index: 3;
+}
+
+nav a{
+color:inherit;
+text-decoration: none;
+}
+
+nav a:hover{
+color:#ffd100;
+}
+
+nav>ul{
+list-style: none;
+float:right;
+width:280px;
+display: flex;
+margin:27px 10px;
+color:#ffffff;
+}
+
+nav>li{
+margin:0 10px;
+padding:0 10px;
+}
+
+section{
+font-size:13px;
+width:70%;
+margin:10vh auto;
+align-content: center;
+padding:0;
+text-size-adjust:100%;
+font-family:'Noto Sans TC', sans-serif ;
+text-decoration: none;
+}
+
+.pc_theory{
+width:100%;
+margin: 3vh 0;
+}
+
+.contact{
+width:80%;
+margin:10vh auto;
+align-content: center;
+padding:0;
+text-size-adjust:100%;
+font-family:'Noto Sans TC', sans-serif ;
+text-decoration: none;
+}
+
+.content{
+width:100%;
+margin:6vw 0;
+position:absolute;
+z-index: 1;
+}
+
+.pc_content .story{
+width:1448px;
+height:800px;
+margin:3vh 0;
+}
+
+#hideme{
+opacity: 0;
+}
+
+.text{
+background-color:#ffffff;
+width:35%;
+box-shadow: 1px 1px 5px #e3e3e3;
+position:absolute;
+right:80px;
+padding:3vh 6vw;
+margin:40vh 0;
+float: right;
+z-index: 2;
+opacity: 0;
+}
+
+.box_inline{
+position:absolute;
+display: inline;
+}
+
+.row{
+padding-top:10vh;
+display:flex;
+flex-wrap:wrap;
+opacity: 0;
+}
+
+.col{
+flex-grow:1;
+margin:0 0.5vw;
+text-align: center;
+}
+
+.form{
+border:0px;
+border-radius:4px;
+height:36px;
+width:90%;
+padding-left: 2vw;
+font-size:14px;
+}
+
+.row-1{
+display:flex;
+flex-wrap:wrap;
+}
+
+.col-1{
+flex-grow:1;
+text-align: left;
+}
+
+.col-2{
+flex-grow:1;
+text-align: left;
+}
+
+footer{
+background-color:#292929;
+height: 6vh;
+}
+
+h2{
+color:#292929;
+font-size: 32px;
+font-family:'Noto Sans TC', sans-serif ;
+font-weight:500;
+}
+
+h3{
+color:#292929;
+font-size: 24px;
+font-family:'Noto Sans TC', sans-serif ;
+font-weight:400;
+}
+
+h4{
+color:#797979;
+font-size:18px;
+line-height:35px;
+font-weight:300;
+}
+
+h5{
+font-size:18px;
+color:#797979;
+text-align: justify;
+text-justify: inter-ideograph;
+font-family:'Noto Sans TC', sans-serif;
+font-weight:400;
+line-height:35px;
+}
+
+
+@media (max-width: 950px) {
+
+.navbar{
+display:fixed;
+}
+
+.mobile_nav{
+position: fixed;
+height:10vh;
+line-height: 10vh;
+z-index: 4;
+}
+
+.mobile_nav ul{
+margin:0 auto;
+}
+
+
+.mobile_box{
+height:10vh;
+width: 100%;
+position: fixed;
+transition: all 1s linear;
+background-color: #292929;
+z-index: 3;
+}
+
+.mobile_banner{
+display:flex;
+width:100%;
+}
+
+.pc_banner{
+display:none;
+width:100%;
+}
+
+.pc_video{
+display:none;
+}
+
+.logo{
+display:none;
+}
+
+
+.pc_theory{
+display:none;
+}
+
+.mobile_theory{
+display: flex;
+width: 100%;
+margin-bottom: 10vh;
+}
+
+.pc_content{
+display: none;
+}
+
+.mobile_content{
+width:100%;
+}
+
+.story_1{
+width:100%;
+z-index: 1;
+}
+
+.text_1{
+background-color:#ffffff;
+width:70%;
+height:35vh;
+padding:5vh 6vw;
+margin: 0 auto;
+z-index: 2;
+box-shadow: 1px 1px 5px #e3e3e3;
+position: relative;
+top:-50px;
+bottom:50px;
+vertical-align:center ;
+opacity: 0;
+}
+
+h2{
+font-size:24px;
+}
+
+h3{
+font-size:20px;
+}
+
+h4{
+font-size:16px;
+}
+
+
+.mobile_footer_logo{
+display: none;
+}
+}
+
+@media (min-width: 950px){
+
+.mobile_navbar{
+display: none;
+}
+
+.mobile_video{
+display: none;
+}
+
+.mobile_theory{
+display: none;
+}
+
+.mobile_banner{
+display:none;
+}
+
+.mobile_content{
+display:none;
+}
+
+}
+}
+
+
+</style>
+
+
+</head>
+
+<body>
+
+<div class="navbar">
+  <div class="logo"><a href=""><img src="img/img_nav_logotext_white.svg" width="90%"></a></div>
+  <nav>
+    <ul>
+        <li><a href="#concept">共享烘焙空間</a></li><li>&nbsp &nbsp &#921; &nbsp &nbsp</li>
+        <li><a href="#contact">立即前往了解</a></li>
+    </ul>
+  </nav>
+</div>
+
+<div class="pc_box hide" id=pc_myID style="color: #292929;z-index: 10;">
+  <div class="logo"><a href=""><img src="img/img_nav_logotext_black.svg" width="90%"></a></div>
+  <nav>
+    <ul>
+        <li style="color: #292929;"><a href="#concept">共享烘焙空間</a></li><li style="color: #292929;">&nbsp &nbsp &#921; &nbsp &nbsp</li>
+        <li style="color: #292929;"><a href="#contact">立即前往了解</a></li>
+    </ul>
+  </nav>
+</div>
+
+<div class="mobile_navbar hide" margin="0 auto" width="100%">
+  <div class="logo"><a href=""><img src="img/img_nav_logotext_white.svg" width="90%"></a></div>
+  <nav class="mobile_nav">
+    <ul>
+        <li><a href="#concept">共享烘焙空間</a></li>&nbsp &nbsp &#921; &nbsp &nbsp
+        <li><a href="#contact">立即前往了解</a></li>
+    </ul>
+  </nav>
+  
+</div>
+
+<div class="mobile_box hide" id=mobile_myID></div>
+
+<div class="pc_video">
+
+    <video autoplay muted loop playsinline id="myVideo" width="100%">
+      <source src="video/banner_bake.mp4" type="video/mp4"><img src="img_logo_white.png" id=logo_320></img>
+      
+      Your browser does not support HTML video.
+    </video>
+
+</div>
+
+<div class="mobile_video">
+
+  <video autoplay muted loop playsinline id="myVideo" width="100%">
+    <source src="video/banner_bake_mobile.mp4" type="video/mp4"><img src="img_logo_white.png" id=logo_320></img>
+    
+    Your browser does not support HTML video.
+  </video>
+
+</div>
+
+
+
+
+<section>
+
+  <div class="concept" id="concept">
+    <div>
+    <img class="pc_theory" src="img/img_theory.svg">
+    <img class="mobile_theory" src="img/mobile/img_theory_320.svg" width="40%" padding="10vw 40vh">
+    </div>
+    <div><h2 style="color:#ffd100;margin: 5vh 0;">什麼是<br>共享烘焙空間</h2></div>
+    <div style="background-color: #ffd100; height:0.8vh; width:4%;"></div>
+    <div>
+        <h5>
+        “Share-Space”為 Newnew 全新創立的共享烘焙空間品牌，不論您是書店、餐廳、咖啡廳、藝文空間，甚至是民宿、青年旅舍，都歡迎您加入我們。
+        <br></br>只要分享您的店內空間，由我們提供設備與食材，並負責規劃及訓練，您的店即可輕鬆變身共享烘焙空間，提供顧客玩美烘焙體驗。讓我們一起「共享空間，一塊烘焙」。
+        </h5>
+    </div>
+    </div>
+  </div>
+
+</section>
+
+<div class="pc_content">
+
+  <div class="text">
+        <h3>“分享空間，也分享你的故事”</h3>
+        <h5>善用店內額外空間，輕鬆變身烘焙教室，擴大客層，創造更大收益，創造更多機會。</h5><br><br><br>
+  </div>
+    <img src="img/img_full_1.png" style="width:100%;height:100%;" class="story">
+
+  <div class="text">
+        <h3>“烘焙體驗，感受手作溫度”</h3>
+        <h5>對烘焙體驗有興趣的朋友相約店裡，親手製作建議烘焙，配上店裡的特調，愜意享受午後時光。</h5><br><br><br>
+  </div>
+    
+  <div >
+    <img src="img/img_full_2.png" style="width:100%;" width="100%" class="story">
+    </div>
+      <div class="text">
+           <h3>“共享聯名，建立品牌知名度”</h3>
+           <h5>忙碌的城市，單調的日常裡，因為共享烘焙，讓您和您的顧客，一起創造了屬於彼此的幸福時刻。</h5><br><br><br>
+        </div>
+    <div >
+      <img src="img/img_full_3.png" style="width:100%;" width="100%" class="story">
+    </div>
+</div>
+
+<div class="mobile_content">
+
+      <div>
+          <img src="img/img_what_share.png" class="story_1">
+      </div>
+
+      <div class="text_1" margin="0 auto">
+          <h2>分享空間，<br>也分享你的故事</h2>
+          <h5>善用店內額外空間，輕鬆變身烘焙教室，擴大客層，創造更大收益，創造更多機會。</h5><br><br><br>
+      </div>
+    
+  <img src="img/img_what_bake.png" class="story_1">
+
+      <div class="text_1" margin="0 auto">
+          <h2>烘焙體驗，<br>感受手作溫度</h2>
+          <h5>對烘焙體驗有興趣的朋友相約店裡，親手製作建議烘焙，配上店裡的特調，愜意享受午後時光。</h5><br><br><br>
+      </div>
+  
+  <img src="img/img_what_create.png" class="story_1">
+
+      <div class="text_1" margin="0 auto">
+           <h2>共享聯名，<br>建立品牌知名度</h2>
+           <h5>忙碌的城市，單調的日常裡，因為共享烘焙，讓您和您的顧客，一起創造了屬於彼此的幸福時刻。</h5><br><br><br>
+        </div>
+
+</div>
+
+<section>
+
+  <div>
+    <div><h2 style="color:#ffd100;margin: 5vh 0;">選擇我們<br>共享烘焙第一品牌，打造愉悅服務體驗</h2></div>
+    <div style="background-color: #ffd100; height:0.8vh; width:4%;"></div>
+    <div>
+        <h5>您的商業文化空間，除了提供餐點和咖啡，還有更多可能。</br>
+        </br>老闆A在離峰時段看著空下的座位，正在考慮離峰時段要不要暫時歇業。當A老闆聽到Share-Space的想法時，開心地跳了起來，決定善加利用這些時段空出來的人力和空間，發展店家的新副業。
+        </br></br>手創工作者Ｂ欲開設烘焙工作室，卻礙於經費與場域無法實踐，共同烘焙空間提供了一個全新的想法，實現了手創工作者Ｂ的計畫。
+        </h5>
+    </div>
+        <div class="row">
+           <div class="col"><img src="img/icon_need_1.svg">
+              <br><h3>轉化閒置工時</h3>
+              <h4>開發店家斜槓經營<br>提供體驗性產品服務</h4></div>
+           <div class="col"><img src="img/icon_need_2.svg">
+              <br><h3>創造離峰收入</h3>
+              <h4>預約型、離峰時段服務<br>增加店家收益</h4></div>
+           <div class="col"><img src="img/icon_need_3.svg">
+              <br><h3>提升訪店頻率</h3>
+              <h4>創造顧客來店消費動機<br>
+                及累積消費金額</h4></div>
+           <div class="col"><img src="img/icon_need_4.svg">
+              <br><h3>物料統一採購</h3>
+              <h4>物料品質、來源統一控管<br>整合對口廠商與採購量</h4></div>
+        </div>
+
+        <div class="row">
+          <div class="col"><img src="img/icon_need_5.svg">
+            <br><h3>快速模組導入</h3>
+            <h4>玩美烘焙體驗服務流程<br>系統化管理</h4></div>
+          <div class="col"><img src="img/icon_need_6.svg">
+            <br><h3>安心共享服務</h3>
+            <h4>完整的烘焙設備後勤支援<br>定檢清潔安心使用</h4></div>
+          <div class="col"><img src="img/icon_need_7.svg">
+            <br><h3>定期新品上線 </h3>
+            <h4>常態或季節性新品上線<br>提供顧客嚐鮮選擇</h4></div>
+          <div class="col"><img src="img/icon_need_8.svg">
+            <br><h3>定期教育培訓</h3>
+            <h4>Daymaker教育課程計畫<br>預約服務及社群行銷支援<br></h4></div>
+       </div>
+
+</section>
+
+<div style="background-color: #f0f0f0;">
+
+<div>
+  <img src="img/img_3pic.png" width="100%" margin="10vh 0px" padding="0px 0px">
+</div>
+
+<div style="background-color: #f0f0f0;width:100%;padding:10vh 0;margin:0 auto;">
+
+<div class="contact" id="contact">
+
+  <div><h2>立即了解<br>填單體驗共享烘焙空間</h2></div>
+
+    <form name="replyform" action="https://formspree.io/f/mayaqbyd" method="post"  style="font-size: 16px;">
+
+        <label for="name">聯絡姓名</label>
+        <p><input type="text" name="name" id="name" minlength="2" maxlength="20" placeholder="請輸入" class="form" required></p>
+        <label for="telNo">聯絡電話</label>
+        <p><input type="text" name="telNo" id="tel" placeholder="請輸入" class="form" required></p>
+        <label for="shopname">店家名稱</label>
+        <p><input type="text" name="shopname" id="shopname" placeholder="請輸入" class="form" required></p>
+        <label for="fb">店家Facebook網址</label>
+        <p><input type="text" name="fb" id="fb" placeholder="請輸入" class="form" required></p>
+
+        <label for="type">店家型態</label>
+        <div style="font-size:14px;height:36px;line-height:5vh;width:93%;background-color: #ffffff;border-radius:4px;border:0px;">
+        <p><select required type="type" name="type" id="type" class="form" style="width:95%;-webkit-appearance: none;-moz-appearance：none;background: url(img/mobile/icon_dropdown_320.svg) no-repeat right center transparent;"></p>
+          <option value="select" color="#e3e3e3">請選擇</option> 
+          <option value="咖啡店">咖啡店</option>
+          <option value="輕食店">輕食店</option>
+          <option value="親子餐廳">親子餐廳</option>
+          <option value="幼稚園所">幼稚園所</option>
+          <option value="補教業者">補教業者</option>
+          <option value="其他">其他</option>
+          </select>
+
+          <br><br>
+
+        <p><button type="submit" value="確定送出" style="font-size:14px;background-color: #ffd100;border-radius:4px;border:0px;height:36px;line-height:5vh;width:180px;">確定送出</button></p>
+
+          <br><br>
+
+      </div>
+
+    </form>
+
+  </div>
+  
+</div>
+</div>
+
+<footer>
+
+  <div style="text-align: center;line-height: 6vh;color:#ffffff;">© 2021 Share-Space Inc. 共享空間，一塊烘焙</div>
+
+</footer>
+
+<script>
+
+  myID = document.getElementById("pc_myID");
+  
+  var myScrollFunc = function () {
+      var y = window.scrollY;
+      if (y >= 800) {
+          myID.className = "pc_box show"
+      } else {
+          myID.className = "pc_box hide"
+      }
+  };
+  
+  window.addEventListener("scroll", myScrollFunc);
+
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_need_2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_need_2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-16" transform="translate(24.000000, 20.000000)">
+            <g id="Group-12">
+                <path d="M0.5,80 L43.2527586,80" id="Path-8" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M54.8933432,80 L68.9552258,80" id="Path-8" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g id="Group-21" transform="translate(28.000000, 0.000000)">
+                    <circle id="Oval" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" cx="13.5" cy="13.5" r="13.5"></circle>
+                    <text id="$" font-family="HiraMaruProN-W4, Hiragino Maru Gothic ProN" font-size="18" font-weight="normal" letter-spacing="0.0282" fill="#4A4A4A">
+                        <tspan x="8.2349" y="20">$</tspan>
+                    </text>
+                </g>
+                <polyline id="Path-9" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="14.7527586 66.8080646 34.2363923 48.0534961 44.0158892 59.4331538 71.7527586 33.8080646"></polyline>
+                <path d="M0.5,80 L0.5,8" id="Path-10" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
