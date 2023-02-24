@@ -465,6 +465,53 @@ display:none;
 }
 
 }
+
+.container {
+  position: relative;
+  width: 100%;
+  height:100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.container:hover .overlay {
+  opacity: 0.7;
+}
+
+.texttext_1 {
+  padding:20px;
+  border:2px white solid;
+  border-radius:0px;
+  width:20%;
+  color: white;
+  font-size: 24px;
+  position: relative;  
+  text-align: center;
+  position: relative;
+  margin:auto;
+  top:40%;
+}
+
+.texttext_1 a{
+  color: white;
+  text-decoration:none;
+}
+
+.music{
+  position:fixed;
+  left:10px;
+  bottom:10px;
 }
 
 
@@ -649,8 +696,11 @@ display:none;
 
 <div style="background-color: #f0f0f0;">
 
-<div>
-  <img src="img/img_3pic.png" width="100%" margin="10vh 0px" padding="0px 0px">
+<div class="container">
+  <img class="img_01" src="img/img_3pic.png" width="100%" margin="10vh 0px" padding="0px 0px">
+  <div class="overlay">
+    <div class="texttext_1"><a href="#contact">查看詳情</a></div>
+  </div>
 </div>
 
 <div style="background-color: #f0f0f0;width:100%;padding:10vh 0;margin:0 auto;">
@@ -671,8 +721,8 @@ display:none;
         <p><input type="text" name="fb" id="fb" placeholder="請輸入" class="form" required></p>
 
         <label for="type">店家型態</label>
-        <div style="font-size:14px;height:36px;line-height:5vh;width:93%;background-color: #ffffff;border-radius:4px;border:0px;">
-        <p><select required type="type" name="type" id="type" class="form" style="width:95%;-webkit-appearance: none;-moz-appearance：none;background: url(img/mobile/icon_dropdown_320.svg) no-repeat right center transparent;"></p>
+        <div style="font-size:14px;height:40px;line-height:5vh;width:93%;background-color: #ffffff;border-radius:4px;border:0px;">
+        <p><select required type="type" name="type" id="type" class="form" placeholder="請選擇" style="width:95%;-webkit-appearance: none;-moz-appearance：none;background: url(img/mobile/icon_dropdown_320.svg) no-repeat right center transparent;"></p>
           <option value="select" color="#e3e3e3">請選擇</option> 
           <option value="咖啡店">咖啡店</option>
           <option value="輕食店">輕食店</option>
@@ -684,10 +734,10 @@ display:none;
 
           <br><br>
 
-        <p><button type="submit" value="確定送出" style="font-size:14px;background-color: #ffd100;border-radius:4px;border:0px;height:36px;line-height:5vh;width:180px;">確定送出</button></p>
+        <p><button type="submit" value="確定送出" style="cursor: pointer;font-size:14px;background-color: #ffd100;border-radius:4px;border:0px;height:40px;line-height:5vh;width:180px;">確定送出</button></p>
 
           <br><br>
-
+          
       </div>
 
     </form>
